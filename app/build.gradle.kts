@@ -104,10 +104,4 @@ dependencies {
         exclude("org.apache.httpcomponents", "guava-jdk5")
         exclude("com.google.http-client", "google-http-client")
     }
-
-    // ObjectBox - legacy
-    debugImplementation("io.objectbox:objectbox-android-objectbrowser:2.9.1")
-    releaseImplementation("io.objectbox:objectbox-android:2.9.1")
-    implementation("io.objectbox:objectbox-kotlin:2.9.1")
-    kapt("io.objectbox:objectbox-processor:2.9.1")
 }
